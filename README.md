@@ -7,12 +7,12 @@ _Very_ simple plugin to compile .scss files into .css as part of an [Eleventy](h
 Install:
 
 ```
-npm install --save-dev https://git.taxes.dev/taxes/eleventy-plugin-dart-sass
+npm install --save-dev git+https://git.taxes.dev/taxes/eleventy-plugin-dart-sass.git
 ```
 
 Usage (in `.eleventy.js`):
 
-```lang=javascript
+```javascript
 const pluginSass = require("@taxes/eleventy-plugin-dart-sass");
 
 module.exports = function (eleventyConfig) {  
