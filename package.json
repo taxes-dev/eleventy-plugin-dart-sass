@@ -1,0 +1,20 @@
+{
+  "name": "@taxes/eleventy-plugin-dart-sass",
+  "version": "0.1.0",
+  "description": "Dart Sass plugin for Eleventy",
+  "repository": {
+    "type": "git",
+    "url": "https://git.taxes.dev/taxes/eleventy-plugin-dart-sass"
+  },
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Havi S. <havi@taxes.dev>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@11ty/eleventy": "canary"
+  },
+  "dependencies": {
+    "sass": "1.42.1"
+  }
+}
